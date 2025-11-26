@@ -1,5 +1,6 @@
 <script setup>
-import ButtonArray from './components/ProductLoad/ButtonArray.vue';
+import ButtonArray from './components/BulkUpload/ButtonArray.vue';
+import FileUpload from './components/BulkUpload/Dialogs/FileUpload.vue';
 import { onMounted } from 'vue';
 
 onMounted(() => {
@@ -15,6 +16,7 @@ onMounted(() => {
     </div>
     <div class="products__container bg_red">
       <ButtonArray/>
+      <FileUpload/>
       <div class="my-7"></div>
       <div class="d-flex justify-space-between">
         
